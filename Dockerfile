@@ -1,3 +1,3 @@
-FROM gradle:4.5-jdk8-alpine
+FROM openjdk:8-jdk-alpine
 
-RUN apk --no-cache --update add nodejs
+RUN apk --update add nodejs
